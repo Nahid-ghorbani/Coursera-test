@@ -1,7 +1,77 @@
 h1 {
-	color: blue;
-	size: 18;
+	color: #de4307;
+	font-weight: 18px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-family: Gill Sans Ultra, Forte, Gloomy Things;
 }
-p {
-	size: 13
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
 }
+section{
+	background: #E1E7EB;
+	font-family: Gill Sans, Forte, Gloomy Things, Frutiger ;
+}
+#container{
+   position:relative;
+}
+section>p{
+	padding: 10px;
+	padding-top: 35px;
+}
+#div1{
+	background: #de4307;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+#div2{
+    background: #f29c2b;
+    padding: 5px;
+	width: 100px;
+  	text-align: center;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+#div3{
+    background: #8bc24c;
+  	padding: 5px;
+  	width: 100px;
+  	text-align: center;
+	position: absolute;
+	top:0px;
+	right:0px;
+}
+/*windows*/
+@media (min-width:992px){
+	.col-lg-4
+	{float:left;
+     border:1px solid black;
+     margin:2%;}
+    .col-lg-4{width: 28%}
+    }
+/*tablet*/
+@media (min-width:768px) and (max-width:991px){
+    .col-md-6, .col-md-12
+    {float:left;
+     border:1px solid black;
+     margin:2%;}
+    .col-md-6{width:46%;}
+    .col-md-12{width:96%;}
+    }
+/*mobile*/
+@media (max-width: 767px){
+	.col-sm-12
+	{float:left;
+     border:1px solid black;
+     margin:2%;}
+     .col-sm-12{width:96%;}
+    }
+
