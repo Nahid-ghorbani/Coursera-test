@@ -41,7 +41,10 @@ h5{
 	font-weight: bold;
 	align-content: center;
 }
-
+section>div{
+	text-align: center;
+	font-weight: bold;
+}
 .offcanvas-header{
 margin-right: 7%;
 }
